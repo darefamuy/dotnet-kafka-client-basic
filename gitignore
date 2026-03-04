@@ -1,0 +1,27 @@
+## .NET
+*.user
+.vs/
+bin/
+obj/
+publish/
+
+## Credentials — NEVER commit these
+appsettings.Development.json
+appsettings.Production.json
+*.secrets.json
+.env
+.env.*
+secrets/
+
+## Test results
+TestResults/
+coverage/
+*.trx
+
+## OS
+.DS_Store
+Thumbs.db
+
+## IDE
+.idea/
+.vscode/
